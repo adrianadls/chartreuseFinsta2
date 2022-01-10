@@ -15,10 +15,9 @@ const App = () => {
         <div class="container">
           <div class="row">
             <PictureBox />
-          </div>
-          <div class="row">
             <AboutBox />
           </div>
+          <div class="row"></div>
         </div>
       </div>
     );
