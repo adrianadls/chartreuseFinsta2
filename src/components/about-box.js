@@ -9,14 +9,12 @@ const AboutBox = () => {
         <p class="list-group-item heading">About</p>
         <p class="list-group-item">Age: 417</p>
         <p class="list-group-item">Occupation: Color</p>
-        <p class="list-group-item">Education: Wild Cat Academy</p>
         <p class="list-group-item">
-          Favorite Bands: Cat Stevens, Def Leopard, Atomic Kitten, Lionel
-          Ritchie
+          Education: Academy of Arts for Existing Colors
         </p>
+        <p class="list-group-item">Favorite Artist: Adele</p>
         <p class="list-group-item">
-          Contact Info: Meow at me at the fence behind Burger King on 242nd and
-          Broadway
+          Contact Info: Mix three parts green, two parts yellow
         </p>
         <p class="list-group-item">Relationship Status: Single</p>
         <p class="list-group-item">Places Lived: the World</p>

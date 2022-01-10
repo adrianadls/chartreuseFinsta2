@@ -5,7 +5,7 @@ const PetNav = () => {
     <div className="PetNav">
       <nav class="Navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          Furbook
+          Colorgram
         </a>
         <button
           class="navbar-toggler"
@@ -24,17 +24,7 @@ const PetNav = () => {
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Post
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pet
+                Profile Page <span class="sr-only">(current)</span>
               </a>
             </li>
           </ul>
