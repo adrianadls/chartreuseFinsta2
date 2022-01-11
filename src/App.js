@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PetNav from "./components/pet-nav";
 import PictureBox from "./components/picture-box";
 import AboutBox from "./components/about-box";
+import Followers from "./components/followers.js";
 
 import "./App.css";
 
@@ -22,8 +23,30 @@ const App = () => {
       </div>
     );
   };
+ 
+  handleFollowerButton = () => {
+    this.setState((state) => {
+      state.followers += 1;
+      return state;
+    });
+  };
 
-  return component;
+  render() {
+    return(
+    <div className = "App">
+      <div className ="followers"
+
+   <Followers
+            id={0}
+            clickHandler={this.handleFollowerButton}
+
+          />
+    </div>
+</div>
+
+  )}
+
+
 };
 
 export default App;
