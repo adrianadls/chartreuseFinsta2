@@ -5,7 +5,7 @@ function Followers(props) {
     <div className="Followers">
       <div>
         <button onClick={() => props.clickHandler()}>
-          <span role="img" aria-label="up">
+          <span role="img" aria-label="follow">
             ⬆️
           </span>
         </button>

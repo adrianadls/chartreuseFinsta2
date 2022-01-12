@@ -36,13 +36,13 @@ const App = () => {
     <div className = "App">
       <div className ="followers"
 
-   <Followers
+    < Followers
             id={0}
             clickHandler={this.handleFollowerButton}
 
           />
     </div>
-</div>
+< /div>
 
   )}
 
