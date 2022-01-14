@@ -16,7 +16,8 @@ const App = () => {
         <Followers />
         <div class="container">
           <div class="row">
-            <PictureBox /> <AboutBox />
+            <PictureBox />
+            <AboutBox />
           </div>
         </div>
       </div>

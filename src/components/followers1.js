@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./css/followers.css";
 
 class Followers extends React.Component {
   constructor(props) {
@@ -23,7 +22,7 @@ class Followers extends React.Component {
           <div id={10000000} name={"Chartreuse"} follow={this.handleFollow}>
             <button
               type="button"
-              class="btn btn-light"
+              class="btn btn-dark"
               name="follow_button"
               onClick={() => this.handleFollow()}
             >
