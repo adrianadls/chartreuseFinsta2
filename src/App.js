@@ -13,11 +13,11 @@ const App = () => {
     return (
       <div className="App">
         <PetNav />
+        <Followers />
         <div class="container">
           <div class="row">
             <PictureBox /> <AboutBox />
           </div>
-          <Followers />
         </div>
       </div>
     );
