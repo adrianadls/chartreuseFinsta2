@@ -14,11 +14,10 @@ const App = () => {
       <div className="App">
         <PetNav />
         <div class="container">
-          <Followers />
           <div class="row">
-            <PictureBox />
-            <AboutBox />
+            <PictureBox /> <AboutBox />
           </div>
+          <Followers />
         </div>
       </div>
     );

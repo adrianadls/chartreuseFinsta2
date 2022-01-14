@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import pic from "./images/takota.png";
-import "./css/picture-box.css";
+import "./css/about-box.css";
 
 const AboutBox = () => {
   return (

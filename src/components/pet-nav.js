@@ -28,19 +28,6 @@ const PetNav = () => {
               </a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Find friends..."
-            />
-            <button
-              class="btn btn-outline-secondary my-2 my-sm-0"
-              type="submit"
-            >
-              Sniff
-            </button>
-          </form>
         </div>
       </nav>
     </div>

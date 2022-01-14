@@ -21,9 +21,15 @@ class Followers extends React.Component {
       <div className="App">
         <div className="Followers">
           <div id={10000000} name={"Chartreuse"} follow={this.handleFollow}>
-            <button onClick={() => this.handleFollow()}>
+            <button
+              type="button"
+              class="btn btn-light"
+              name="follow_button"
+              onClick={() => this.handleFollow()}
+            >
               {this.state.followerstotal}
             </button>
+            <h6>click to follow</h6>
           </div>
         </div>
       </div>
